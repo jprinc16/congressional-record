@@ -628,6 +628,7 @@ class CRParser(object):
         for orphan in orphans:
             print orphan, self.xml[orphan[3]]
             # Capture orphans in a file, that sounds wrong, but we need it.
+            # This does not work on all systems. I will look into a better solution. -Jace Prince
             f = open('orphans.txt', 'a+')
             print >> f, self.xml[orphan[3]]
             f.close()
