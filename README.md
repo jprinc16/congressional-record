@@ -1,3 +1,6 @@
+# Travis Build Status
+[![Build Status](https://travis-ci.org/jprinc16/congressional-record.svg?branch=master)](https://travis-ci.org/jprinc16/congressional-record)
+
 # Congressional Record
 
 This tool uses the Sunlight Foundation's [Capitol Words](https://github.com/sunlightlabs/Capitol-Words) parser to mark up the Congressional record in XML. 
