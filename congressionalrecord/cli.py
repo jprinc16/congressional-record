@@ -30,7 +30,10 @@ def main():
 
     parser = argparse.ArgumentParser(
         prog="parsecr",
-        description="Parse arguments for the Congressional Record Parser")
+        description='Parse arguments for the Congressional Record Parser \n\
+                    University of Tennessee (UTK) Parser Updates by: \n\
+                    Jace Prince\n\
+                    Dr. Nathan Kelly\n')
 
     parser.add_argument('days', type=str, nargs='*',
                         help='A positional argument for dates. This can be a single date, a list \
