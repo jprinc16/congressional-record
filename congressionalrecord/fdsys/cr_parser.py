@@ -20,6 +20,9 @@ class CRParser(object):
     ''' Parser functionality and regular expressions common to all
     congressional record documents'''
 
+    # Issue #15 - Ms./Mrs. EDDIE BERNICE JOHNSON is not being caught as a speaker.
+    # https://github.com/jprinc16/congressional-record/issues/15
+    # Tweaks to RegEx should fix this error.
     re_volume = r'(?<=Volume )\d+'
     re_number = r'(?<=Number )\d+'
     re_weekday = r'Number \d+ \((?P<weekday>[A-Za-z]+)'
