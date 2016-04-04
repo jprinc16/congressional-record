@@ -111,3 +111,10 @@ saved file /Users/dan/Projects/CR/CREC-2014-01-21/txt/__parsed/CREC-2014-01-21-p
 ## Want to run from source without installing?
 
 Run `python -m "congressionalrecord.cli"` from the root of the repository instead of the `parsecr` command, passing arguments as usual.
+
+## Code Notes
+This code is part of the Sunlight foundation and has been adopted by and maintained by the University of Tennessee. Credits:
+1. Jace Prince (Coding)
+2. Dr. Nathan Kelly (Implementation, testing, and research)
+
+This code is freely available on our public branch.
