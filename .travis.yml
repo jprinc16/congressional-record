@@ -9,10 +9,7 @@ script: python test/run
 
 notifications:
   email:
-    recipients: 
-      - eric@sunlightfoundation.com
-      - ddrinkard@sunlightfoundation.com
-      - lyoung@sunlightfoundation.com
-      - jprinc16@utk.edu
+    recipients:
+      - jprinc16@vols.utk.edu
     on_success: change
     on_failure: change
