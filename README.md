@@ -1,5 +1,5 @@
-# Travis Build Status
-[![Build Status](https://travis-ci.org/jprinc16/congressional-record.svg?branch=master)](https://travis-ci.org/jprinc16/congressional-record)
+# Travis Build Status (Private Repo)
+[![Build Status](https://travis-ci.com/jprinc16/crec.svg?token=qoByYsi3V5SvaxB3R7Va&branch=master)](https://travis-ci.com/jprinc16/crec)
 
 # Congressional Record
 
