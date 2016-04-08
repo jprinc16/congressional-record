@@ -632,7 +632,11 @@ class CRParser(object):
             print orphan, self.xml[orphan[3]]
             # Capture orphans in a file, that sounds wrong, but we need it.
             # This does not work on all systems. I will look into a better solution. -Jace Prince
-            f = open(self.filename + '-orphans.txt', 'a+')  # Captures orphans to their appropriate file.
+            directory = "orphans"
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+            f = open(os.path.join(directory, self.filename + '-orphans.txt'), 'a+')  # Place orphans in their own dir.
+            # f = open(self.filename + '-orphans.txt', 'a+')  # Captures orphans to their appropriate file.
             print >> f, self.xml[orphan[3]]
             f.close()
             f = open('orphans-all.txt', 'a+')
